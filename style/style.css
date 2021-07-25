@@ -1,0 +1,74 @@
+/*TOMBOL NAVBAR*/
+.bg-ungu:hover {
+	background-color: #744BC0 !important;
+}
+.bg-ungu {
+	transition: .3s;
+	background-color: #8F5DEB !important;
+}
+.text-nav {
+	color: #8F5DEB !important;
+}
+.text-nav:hover {
+	color: #744BC0 !important;
+}
+
+/*akhir tombol*/
+
+/*main content*/
+.gambar {
+	display: none;
+}
+.img {
+	width: 700px;
+	z-index: -1;
+}
+.desc {
+	max-width: 400px;
+}
+.button {
+	background-color: rgb(232, 79, 136);
+}
+/*akhir main*/
+
+/*responsive*/
+@media(max-width: 1199px){
+	.img {
+		width: 500px;
+		z-index: -1;
+	}
+}
+
+@media(max-width: 992px) {
+	.img {
+		width: 300px;
+		z-index: -1;
+	}
+}
+
+@media(max-width: 800px) {
+	.img {
+		display: none;
+		width: 500px;
+	}
+	.gambar {
+		display: block;
+	}
+}
+
+@media(max-width: 580px) {
+	.img {
+		display: none;
+		width: 500px;
+	}
+	.gambar {
+		display: block;
+	}
+	.tmbl-signup {
+		padding: 10px !important;
+	}
+
+}
+/*akhir responsive*/
+
+/*darkmode*/
